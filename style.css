@@ -130,3 +130,46 @@ header p {
   background-color: #FFFFFF;
   line-height: 24px;
 }
+
+.terms {
+  margin-top: 230px;
+  padding: 10px 25px;
+}
+
+.terms .line {
+  border: 1px solid #F3F4F6;
+  margin-bottom: 10px;
+}
+
+.terms .terms-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.terms-info p {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  color: #1F2937;
+  line-height: 20px;
+}
+
+.terms-info .policy {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  color: #64B5F6;
+  line-height: 20px;
+}
+
+.terms-info .services {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  color: #64B5F6;
+  line-height: 20px;
+}
