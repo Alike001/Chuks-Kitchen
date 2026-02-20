@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+}
+
+main {
+  display: flex;
+}
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 25px 30px 0 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo .logo-text {
+  font-family: Island Moments;
+  font-weight: 400;
+  font-size: 40px;
+  color: #FF7A18;
+}
+
+.logo .btn-primary {
+  padding: 10px 35px;
+  border-radius: 7px;
+  border: 2px solid #1E88E5;
+  background-color: #fff;
+  font-family: Inter;
+  color: #1E88E5;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main-container {
+ margin-top: 130px;
+}
+
+header h1 {
+  margin-bottom: 25px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: Bold;
+  color: #1F2937;
+}
+
+header p {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1F2937;
+  font-style: Medium;
+  line-height: 1.5;
+}
+
+.info {
+  margin-top: 35px;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.info .info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 48%;
+  margin-bottom: 5px;
+}
+
+.info img {
+  background-color: #FFE1C4;
+  padding: 10px;
+  border-radius: 13px;
+}
+
+.info .info-item:nth-child(3) img {
+    width: 40px;
+}
+
+.info p {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: Medium;
+  color: #000000;
+}
+
+.button {
+  max-width: 557px;
+}
+
+.button .order-btn button {
+ background-color: #FF7A18;
+ width: 100%;
+ color: #FFFFFF;
+ padding: 18px 0;
+ border: none;
+ border-radius: 10px;
+ font-family: Inter;
+ font-weight: 600;
+ font-size: 16px;
+ margin-bottom: 20px;
+ line-height: 24px;
+}
+
+.button .btn button{
+  width: 100%;
+  border: 2px solid #1E88E5;
+  border-radius: 10px;
+  padding: 18px 0;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1E88E5;
+  background-color: #FFFFFF;
+  line-height: 24px;
+}
