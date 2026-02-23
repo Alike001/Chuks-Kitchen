@@ -391,6 +391,10 @@ form .form-group {
   margin-top: -20px;
 }
 
+.cont-socials .google {
+  margin-top: 20px;
+}
+
 .cont-socials .google, .cont-socials .facebook {
   border: 1px solid #BDBDBD;
   background-color: #FFFFFF;
