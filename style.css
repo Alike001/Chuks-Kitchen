@@ -25,7 +25,7 @@ main {
   justify-content: space-between;
 }
 
-.logo .logo-text {
+.logo .logo-text, .signin-card .logo-text{
   font-family: Island Moments;
   font-weight: 400;
   font-size: 40px;
@@ -267,4 +267,104 @@ footer .footer-info {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.signin-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.signin-page .signin-hero {
+  flex: 1;
+  position: relative;
+}
+
+.signin-hero .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #FF7A18B2;
+  display: flex;
+  justify-content: center;
+  padding: 300px 65px;
+}
+
+.overlay .overlay-text {
+  max-width: 270px;
+  font-family: Inter;
+  color: #FFFFFF;
+  height: 135px;
+}
+
+.overlay-text h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.overlay-text p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.signin-container {
+  flex: 1;
+  margin: 80px 90px;
+  padding: 10px;
+}
+
+.signin-card {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.signin-card h3 {
+  font-family: Inter;
+  font-size: 24px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+form .form-group {
+  margin-bottom: 20px;
+}
+
+.form-group .label {
+  font-family: Inter;
+  font-size: 14px;
+  color: #3B4758;
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.form-group .input-details {
+  border: 1px solid #BDBDBD;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 12px;
+  background: white;
+}
+
+.input-details img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.input-details input {
+  border: none;
+  outline: none;
+  padding: 16px 0;
+  width: 100%;
+  font-size: 14px;
+} 
+
+.input-details input::placeholder {
+  font-family: Inter;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
 }
