@@ -436,8 +436,8 @@ form .form-group {
   color: #1E88E5;
 }
 
-.terms {
-  margin-top: 5px;
+.term {
+  margin-top: 8px;
 }
 
 .checkbox-wrapper {
@@ -445,7 +445,6 @@ form .form-group {
   align-items: center;
   gap: 10px;
   cursor: pointer;
-  margin-left: -25px;
 }
 
 .checkbox-wrapper input {
@@ -476,7 +475,7 @@ form .form-group {
   background-color: #1E88E5;
 }
 
-.terms-text a {
+.term-text a {
   color: #1E88E5;
   text-decoration: none;
   font-family: Inter;
