@@ -435,3 +435,51 @@ form .form-group {
   text-decoration: none;
   color: #1E88E5;
 }
+
+.terms {
+  margin-top: 5px;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-left: -25px;
+}
+
+.checkbox-wrapper input {
+  display: none;
+}
+
+.custom-checkbox {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #1E88E5;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-checkbox img {
+  width: 10px;
+  height: 10px;
+  display: none;
+}
+
+.checkbox-wrapper input:checked + .custom-checkbox img {
+  display: block;
+}
+
+.checkbox-wrapper input:checked + .custom-checkbox {
+  background-color: #1E88E5;
+}
+
+.terms-text a {
+  color: #1E88E5;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+}
