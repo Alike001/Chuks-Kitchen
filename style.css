@@ -454,7 +454,7 @@ form .form-group {
 .custom-checkbox {
   width: 18px;
   height: 18px;
-  border: 2px solid #1E88E5;
+  border: 1px solid #1E88E5;
   border-radius: 3px;
   display: flex;
   align-items: center;
