@@ -526,7 +526,7 @@ nav button {
   cursor: pointer;
 }
 
-.hero {
+.hero, .explore-hero {
   padding-top: 80px;
 }
 
@@ -538,7 +538,7 @@ nav button {
   position: relative;
 }
 
-.hero .hero-overlay, .foot .foot-overlay {
+.hero .hero-overlay, .foot .foot-overlay, .explore-hero .explore-overlay {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.35);
@@ -555,13 +555,14 @@ nav button {
   color: #FFFFFF;
 }
 
-.hero-text h2 {
+.hero-text h2, .explore-text h2 {
   font-size: 40px;
 }
 
 .hero-text p {
   font-size: 20px;
   margin-bottom: 20px;
+  font-weight: 500;
 }
 
 .hero-overlay .hero-btn, .foot-overlay .hero-btn {
@@ -640,8 +641,6 @@ nav button {
   padding: 2px 2px 60px 2px;
   border-radius: 14px;
   cursor: pointer;
-  transition: transform 0.3s ease;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
 .category-card p {
@@ -711,4 +710,171 @@ nav button {
   margin-top: -20px;
   font-size: 24px;
   margin-bottom: 15px;
+}
+
+.explore-hero .explore-background {
+  background-image: url("assets/images/menu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.explore-overlay .explore-text {
+  padding-top: 200px;
+  padding-left: 48px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  font-family: Inter;
+  color: #FFFFFF;
+}
+
+.explore-text p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container {
+  background: #F3F4F6;
+  padding: 82px 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.container .menu {
+  padding: 26px 0;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border-radius: 14px 14px 0 0;
+}
+
+.menu h3 {
+  padding: 10px 26px;
+  border-radius: 14px;
+  font: Inter;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.menu-list .divider-active {
+  background: #FFE1C4;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+ 
+}
+
+.menu-list .divider-active .line {
+  background: #FF7A18;
+  width: 4px;
+  height: 40px;
+}
+
+.menu-list .divider {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu-list .divider .line {
+  width: 4px;
+  height: 40px;
+}
+
+.menu-list li {
+  list-style: none;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.container .container-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.container-info .popular-info, .jollof-info, .swallow-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.popular-info h2 , .jollof-info h2, .swallow-info h2 {
+  color: #1F2937;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.food-card {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 2px 2px 46px 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+}
+
+.food-card .image {
+  width: 100%;
+  height: 160px;          
+  object-fit: cover;      
+  border-radius: 12px;
+  display: block;
+}
+
+.food-body {
+  padding: 0 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.foot-body h3 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 24px;
+  color: #1F2937;
+}
+
+.food-body p {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1F2937;
+}
+
+.food-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 14px;
+}
+
+.food-footer .price-tag {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FF7A18;
+}
+
+.food-footer button {
+  background: #FF7A18;
+  border: none;
+  padding: 5px 6px;
+  border-radius: 107px;
+  cursor: pointer;
 }
